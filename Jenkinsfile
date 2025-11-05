@@ -3,7 +3,7 @@ pipeline {
   options { timestamps() }
 
   environment {
-    IMAGE = 'bizanimaram/projetJenkins'
+    IMAGE = 'bizanimaram/projetjenkins'
     TAG   = "build-${env.BUILD_NUMBER}"
   }
 
